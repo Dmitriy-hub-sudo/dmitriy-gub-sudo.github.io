@@ -4,98 +4,162 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
-	<link rel="stylesheet" href="swiper/swiper.min.css">
 	<link rel="stylesheet" href="style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
-<body class="page-project">
-	<div class="project">
-		<div class="project-nav">
-			<div class="project-nav__row">
-				<div class="project-nav__col">
-					<a href="#" class="project-nav__arrow project-nav__prev"></a href="#">
+<body class="home">
+    
+    <div  id="photo-banner"><img src="img/Integration-Header-image-1920x300-2.jpg" id="photo-banner-img"></div>
+    
+	<nav class="nav hide">
+		<div class="nav-container">
+			<div class="wrapper">
+				<div class="top_info">
+					<div class="nav-item">
+						<p class="nav-item_name" id="contact-1">@gurguru</p>
+						<div class="nav-item_social">Telegram</div>
+					</div>
+					<div class="nav-item">
+						<p class="nav-item_name" id="contact-2">great-guru@xmpp.jp</p>
+						<div class="nav-item_social">Jabber</div>
+					</div>
+					<div class="nav-item">
+						<p class="nav-item_name" id="contact-3">great_guru</p>
+						<div class="nav-item_social">VIPole</div>
+					</div>
 				</div>
-				<div class="project-nav__col">
-					<a href="index.html" class="project-nav__close">ЗАКРЫТЬ</a>
-				</div>
-				<div class="project-nav__col">
-					<a href="#" class="project-nav__arrow project-nav__next"></a>
-				</div>
-			</div>
+			</div>	
 		</div>
-		<div class="project-slider swiper-container">
-			<div class="project-slider__wrapper swiper-wrapper">
-				<div class="project-slider__item swiper-slide">
-						<div class="swiper-zoom-container">
-							<img class="image1" src="img/Tablet1.png" alt="">
+	</nav>
+	<main>
+		<div class="top_block">
+			<div class="wrapper">		
+				<div class="btn-contact">Контакты</div>
+				<section class="text">
+					<div class="text-title">гуру дизайна</div>
+					<div class="text-description"><strong>«Ничего лишнего»</strong> - то, чем руководствуется наша команда.<br>
+					Соберем красочный образ вашего бизнеса, продукта или задумки,<br>
+					учитывая все пожелания и сильные стороны.</div>
+				</section>
+			</div>
+		</div>	
+		<div class="wrapper bottom_content">		
+			<section class="card">
+				<div class="card-row">
+					<div class="card-col">
+						<a class="card-item" href="page.html">
+							<img src="img/tZ6mZDwZkAI.jpg" alt="photo" class="card-img">
+						</a>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
 						</div>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
+						</div>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
+						</div>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
+						</div>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
+						</div>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
+						</div>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
+						</div>
+					</div>
+					<div class="card-col">
+						<div class="card-item">
+							<a href="page.html">
+								<img src="img/photo.jpg" alt="photo" class="card-img">
+							</a>
+						</div>
+					</div>
 				</div>
-			</div>
-			<!-- Add Scroll Bar -->
-			<div class="project-scrollbar swiper-scrollbar"></div>
-		</div>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="swiper/swiper.min.js"></script>
+			</section>
+		</div>	
+	</main>
 	<script>
-		$(function() {
+	$( document ).ready(function() {
 
-			$(".project-slider__item").each(function () {
-				var		width  = $(window).width();
-						item = $(this),
-						img = $(this).find("img"),
-						/*img_width = $(this).find("img").width();*/
-						img_width = window.document.querySelector('.image1').naturalWidth;
+    $('.btn-contact').on('click', function(){
+			if($('.hide').hasClass('open')) {
+				$('.hide').removeClass('open');			
+			}
+			else {
+				$('.hide').addClass('open');
+			}
+		});
+
+		function selectText(elementId) {
+	
+			var doc = document,
+			text = doc.getElementById(elementId), range, selection;
+			
+			if(doc.body.createTextRange) {
+			
+				range = document.body.createTextRange();
+				range.moveToElementText(text);
+				range.select();
 				
-				if (img_width > width) {
-					var swiper = new Swiper('.project-slider', {
-						init: false,
-						direction: 'vertical',
-						slidesPerView: 'auto',
-						freeMode: true,
-						watchOverflow: true,
-						scrollbar: {
-							el: '.project-scrollbar',
-							hide: true,
-						},
-						mousewheel: {
-							releaseOnEdges: true,
-							sensitivity: 0.4,
-						},
-						zoom: {
-							maxRatio: 1.5,
-							toggle: false,
-						},
-					});
-					swiper.on('click', function() {
-						if (item.hasClass("swiper-slide-zoomed")) {
-							swiper.zoom.out();
-						} else {
-							swiper.zoom.in();
-						}
-					});
-					swiper.init();
-				} else {
-					var swiper = new Swiper('.project-slider', {
-						direction: 'vertical',
-						slidesPerView: 'auto',
-						freeMode: true,
-						watchOverflow: true,
-						scrollbar: {
-							el: '.project-scrollbar',
-							hide: true,
-						},
-						mousewheel: {
-							releaseOnEdges: true,
-							sensitivity: 0.4,
-						},
-						
-					});
-				}
-			});
+			} else if(window.getSelection) {
+				
+				selection = window.getSelection();
+				range = document.createRange();
+				range.selectNodeContents(text);
+				selection.removeAllRanges();
+				selection.addRange(range);
+
+			}
+			
+		}
+
+		$(".nav-item_name").click(function() {
+			
+			selectText(this.id);
+			document.execCommand("copy");
 
 		});
+
+
 		
-  </script>
+	});
+	
 </body>
 </html>

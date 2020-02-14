@@ -345,6 +345,7 @@ main{
 @media(max-width: 350px){
 	.project-slider {
 		margin-top: 60px;
+		height: calc(100% - 60px)
 		
 	}
 	.project-nav__row {

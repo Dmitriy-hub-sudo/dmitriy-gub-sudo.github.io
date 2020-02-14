@@ -212,8 +212,7 @@ main{
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	display: flex;
-	align-items:center
+	height:100vh
 }
 .project:before {
 	content: '';
@@ -277,11 +276,11 @@ main{
 .project-slider {
 	margin-top: 80px;
 	width: 100%;
-	height: auto;
+	height: calc(100% - 80px);
     
 }
 .project-slider__wrapper {
-	height: auto
+	
 }
 .project-slider__item{
 	display: flex;
@@ -346,14 +345,14 @@ main{
 		width: 2px;
 	}
 	.project-slider  {
-		height: auto
+		height: calc(87.5% - 60px)
 	}
 	
 }
 @media(max-width: 350px){
 	.project-slider {
 		margin-top: 60px;
-		height: auto
+		height: calc(87.5% - 60px)
 		
 	}
 	.project-nav__row {

@@ -21,7 +21,7 @@ body.page-project {
 }
 
 .swiper-zoom-container {
-    padding: 10% 0
+    padding: 10% 0;
     display: flex;
   align-items: center;
     height:auto;

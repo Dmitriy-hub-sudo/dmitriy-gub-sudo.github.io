@@ -368,3 +368,6 @@ main{
 		height: 45px;
 	}
 }
+.swiper-zoom-container {
+	height:auto
+}

@@ -341,12 +341,15 @@ main{
 	.swiper-container-vertical>.swiper-scrollbar {
 		width: 2px;
 	}
+	.project-slider  {
+		height: calc(90% - 60px)
+	}
 	
 }
 @media(max-width: 350px){
 	.project-slider {
 		margin-top: 60px;
-		height: calc(100% - 60px)
+		height: calc(90% - 60px)
 		
 	}
 	.project-nav__row {

@@ -210,7 +210,8 @@ main{
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	height:100vh
+	height:100vh;
+	display:flex
 }
 .project:before {
 	content: '';
@@ -274,7 +275,8 @@ main{
 .project-slider {
 	margin-top: 80px;
 	width: 100%;
-	height: calc(100% - 80px);
+	height: auto;
+	margin:auto
     
 }
 .project-slider__wrapper {

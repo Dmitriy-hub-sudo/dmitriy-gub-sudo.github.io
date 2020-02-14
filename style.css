@@ -21,7 +21,7 @@ body.page-project {
 }
 
 .swiper-zoom-container {
-    padding: 10% 0;
+    padding: 20px 0;
     display: flex;
   align-items: center;
     height:auto;
@@ -278,7 +278,6 @@ main{
 	margin-top: 80px;
 	width: 100%;
 	height: auto;
-	margin: 80px 0;
     
 }
 .project-slider__wrapper {

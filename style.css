@@ -25,7 +25,7 @@ body.page-project {
     display: flex;
   align-items: center;
 
-    
+    height:auto
     
 }
 .image1 {
@@ -276,11 +276,11 @@ main{
 .project-slider {
 	margin-top: 80px;
 	width: 100%;
-	height: calc(100% - 80px);
+	height: auto;
     
 }
 .project-slider__wrapper {
-	
+	height:auto
 }
 .project-slider__item{
 	display: flex;

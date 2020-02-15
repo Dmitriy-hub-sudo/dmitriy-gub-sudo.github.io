@@ -275,7 +275,7 @@ main{
 .project-slider {
 	margin-top: 80px;
 	width: 100%;
-	height: auto;
+	height: calc(100%-80px);
 	margin:auto
     
 }

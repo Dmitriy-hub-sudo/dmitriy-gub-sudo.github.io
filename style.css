@@ -71,7 +71,7 @@ height: auto;
 #photo-banner:hover {
     cursor: pointer
 }
-.@media(max-width: 1920px) {
+@media(max-width: 1920px) {
 	#photo-banner-img-bigdesk {
 	display:none
 	} 
@@ -86,7 +86,7 @@ height: auto;
 	} 	  
     
 }
-.@media(max-width: 1024px) {
+@media(max-width: 1024px) {
   
        #photo-banner-img-bigdesk {
 	display:none
@@ -101,7 +101,7 @@ height: auto;
 	display:none
 	} 	  
 }
-.@media(max-width: 490px) {
+@media(max-width: 490px) {
         #photo-banner-img-bigdesk {
 	display:none
 	} 

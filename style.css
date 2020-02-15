@@ -51,19 +51,19 @@ height: auto;
 
 }
 #photo-banner-img-desk {
-	display: block;
+	display: none;
 max-width: 100%;
 height: auto;
     margin: 0 auto;
 	}
 #photo-banner-img-pad {
-	display: block;
+	display: none;
 max-width: 100%;
 height: auto;
     margin: 0 auto;
 	}
 #photo-banner-img-mobil {
-	display: block;
+	display: none;
 max-width: 100%;
 height: auto;
     margin: 0 auto;

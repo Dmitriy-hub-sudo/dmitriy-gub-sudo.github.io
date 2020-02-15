@@ -41,7 +41,6 @@ nav{
     height: auto;
     display: flex;
     align-items: center;
-	
 }
 #photo-banner-img {
     display: block;
@@ -55,27 +54,22 @@ height: auto;
     cursor: pointer
 }
 .@media(max-width: 1920px) {
-	#photo-banner {
-		opacity:0
-	}
+	
     #photo-banner-img {
-	  background-image: url(img/car.jpg) 
+	photo-banner-img-mobil photo-banner-img-bigdesk photo-banner-img-desk  photo-banner-img-pad
+		  
     }
 }
 .@media(max-width: 1024px) {
-   #photo-banner {
-		opacity:0
-	}
+  
     #photo-banner-img {
 	    
     }
 }
 .@media(max-width: 490px) {
-   #photo-banner {
-		opacity:0
-	}
+  
     #photo-banner-img {
-	    
+	   
     }
 }
 .hide{

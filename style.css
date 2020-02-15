@@ -41,13 +41,14 @@ nav{
     height: auto;
     display: flex;
     align-items: center;
-	background-image: url(img/Integration-Header-image-1920x300-2.jpg)
+	
 }
 #photo-banner-img {
     display: block;
 max-width: 100%;
 height: auto;
     margin: 0 auto;
+	background-image: url(img/Integration-Header-image-1920x300-2.jpg)
 
 }
 #photo-banner:hover {

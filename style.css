@@ -23,7 +23,7 @@ body.page-project {
 .swiper-zoom-container {
     display: flex;
   align-items: center;
-    
+    padding: 5% 0
 }
 .image1 {
 

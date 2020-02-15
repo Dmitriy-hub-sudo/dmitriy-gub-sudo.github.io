@@ -233,7 +233,7 @@ main{
 	width: 100%;
 	background-color: white;
     margin-top: 10px;
-    padding-bottom: 15px;
+    
 }
 .project-nav__row {
 	display: flex;
@@ -242,6 +242,8 @@ main{
 }
 .project-nav__col {
 	padding: 0 12px;
+	position: relative;
+    bottom: 10px;
 }
 .project-nav__arrow {
 	display: flex;

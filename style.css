@@ -350,7 +350,9 @@ main{
 	}
 	.project {
 	padding: 100px 0 100px 0;
+		height:120vh
 	}
+	
 	
 }
 @media(max-width: 350px){

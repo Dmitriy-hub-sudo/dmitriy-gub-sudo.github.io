@@ -344,14 +344,14 @@ main{
 		width: 2px;
 	}
 	.project-slider  {
-		height: calc(87.5% - 60px)
+		height: auto;
 	}
 	
 }
 @media(max-width: 350px){
 	.project-slider {
 		margin-top: 60px;
-		height: calc(87.5% - 60px)
+		height: auto
 		
 	}
 	.project-nav__row {

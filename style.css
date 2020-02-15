@@ -54,7 +54,7 @@ height: auto;
 }
 .@media(max-width: 1920px) {
     #photo-banner-img {
-        content: url(car.jpg)
+        content: url(img/car.jpg)
     }
 }
 .@media(max-width: 1024px) {

@@ -231,6 +231,9 @@ main{
 	top: 0;
 	left: 0;
 	width: 100%;
+	background-color: white;
+    margin-top: 10px;
+    padding-bottom: 15px;
 }
 .project-nav__row {
 	display: flex;

@@ -275,8 +275,9 @@ main{
 .project-slider {
 	margin-top: 80px;
 	width: 100%;
-	height: calc(100%-80px);
-	margin:auto
+	margin:auto;
+	min-height:1px;
+	max-height:100%;
     
 }
 .project-slider__wrapper {
@@ -344,14 +345,14 @@ main{
 		width: 2px;
 	}
 	.project-slider  {
-		height: auto;
+		
 	}
 	
 }
 @media(max-width: 350px){
 	.project-slider {
 		margin-top: 60px;
-		height: auto
+		
 		
 	}
 	.project-nav__row {

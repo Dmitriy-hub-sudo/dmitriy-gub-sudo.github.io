@@ -76,7 +76,10 @@ height: auto;
 	display:none
 	} 
 	#photo-banner-img-desk {
-	display:block
+	display:block;
+	max-width: 100%;
+height: auto;
+    margin: 0 auto;
 	}
 	#photo-banner-img-pad {
 	display:none
@@ -96,6 +99,9 @@ height: auto;
 	}
 	#photo-banner-img-pad {
 	display:block;
+		max-width: 100%;
+height: auto;
+    margin: 0 auto;
 	}
 	#photo-banner-img-mobil {
 	display:none
@@ -112,7 +118,10 @@ height: auto;
 	display:none;
 	}
 	#photo-banner-img-mobil {
-	display:block
+	display:block;
+		max-width: 100%;
+height: auto;
+    margin: 0 auto;
 	}
 }
 .hide{

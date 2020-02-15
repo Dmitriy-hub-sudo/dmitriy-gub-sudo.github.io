@@ -48,7 +48,7 @@ nav{
 max-width: 100%;
 height: auto;
     margin: 0 auto;
-	background-image: url(../img/Integration-Header-image-1920x300-2.jpg)
+	background: url(img/Integration-Header-image-1920x300-2.jpg)
 
 }
 #photo-banner:hover {
@@ -56,7 +56,7 @@ height: auto;
 }
 .@media(max-width: 1920px) {
     #photo-banner-img {
-        background-image: url(../img/car.jpg)
+        background: url(img/car.jpg)
     }
 }
 .@media(max-width: 1024px) {

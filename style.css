@@ -43,10 +43,11 @@ nav{
     align-items: center;
 }
 #photo-banner-img-bigdesk {
-    display: block;
+    display: flex;
 max-width: 100%;
 height: auto;
     margin: 0 auto;
+	align-items:center
 
 
 }
@@ -55,18 +56,21 @@ height: auto;
 max-width: 100%;
 height: auto;
     margin: 0 auto;
+	align-items:center
 	}
 #photo-banner-img-pad {
 	display: none;
 max-width: 100%;
 height: auto;
     margin: 0 auto;
+	align-items:center
 	}
 #photo-banner-img-mobil {
 	display: none;
 max-width: 100%;
 height: auto;
     margin: 0 auto;
+	align-items:center
 	} 	
 #photo-banner:hover {
     cursor: pointer
@@ -76,7 +80,7 @@ height: auto;
 	display:none
 	} 
 	#photo-banner-img-desk {
-	display:block;
+	display:flex;
 	}
 	#photo-banner-img-pad {
 	display:none
@@ -95,7 +99,7 @@ height: auto;
 	display:none
 	}
 	#photo-banner-img-pad {
-	display:block;
+	display:flex;
 	}
 	#photo-banner-img-mobil {
 	display:none
@@ -112,7 +116,7 @@ height: auto;
 	display:none;
 	}
 	#photo-banner-img-mobil {
-	display:block;
+	display:flex;
 	}
 }
 .hide{

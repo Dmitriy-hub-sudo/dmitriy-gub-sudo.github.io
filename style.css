@@ -48,25 +48,34 @@ nav{
 max-width: 100%;
 height: auto;
     margin: 0 auto;
-	background: url(img/Integration-Header-image-1920x300-2.jpg)
+
 
 }
 #photo-banner:hover {
     cursor: pointer
 }
 .@media(max-width: 1920px) {
+	#photo-banner {
+		opacity:0
+	}
     #photo-banner-img {
-        background: url(img/car.jpg)
+	  background-image: url(img/car.jpg) 
     }
 }
 .@media(max-width: 1024px) {
+   #photo-banner {
+		opacity:0
+	}
     #photo-banner-img {
-        content: url()
+	    
     }
 }
 .@media(max-width: 490px) {
+   #photo-banner {
+		opacity:0
+	}
     #photo-banner-img {
-        content: url()
+	    
     }
 }
 .hide{
